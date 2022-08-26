@@ -22,7 +22,7 @@ Users should be able to:
 
 ## Author
 
-- Deploy - (https://kafka22.github.io/interactive-rating-component/)
+- Deploy - https://kafka22.github.io/Interactive-Rating/
 - Frontend Mentor - [@Kafka22]
 
 
