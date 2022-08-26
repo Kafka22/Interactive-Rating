@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  
+</head>
+<body>
+  <main class="main1">
+    <figure>
+      <img class="star" src="./images/icon-star.svg" alt="">
+    </figure>
+    <p class="title">
+      How did we do?
+    </p>
+    <p class="request">
+      Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+
+    <form action="">
+      <div class="buttons">
+        <button class="but1" type="button" value="1">1</button>
+        <button class="but2" type="button" value="2">2</button>
+        <button class="but3" type="button" value="3">3</button>
+        <button class="but4" type="button" value="4">4</button>
+        <button class="but5" type="button" value="5">5</button>
+      </div>
+  
+      <input type="button" value="S U B M I T">
+    </form>
+  
+  </main>
+  
+  <main class="main2 inactive">
+    <div class="illustration">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+    <p class="selected">
+        You selected <span class="cantidad"></span> out of 5
+    </p>
+    <p class="title">
+        Thank you!
+    </p>
+    <p class="thanks-you">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!
+    </p>
+</main>
+  <script src="./script.js"></script>
+</body>
+</html>
